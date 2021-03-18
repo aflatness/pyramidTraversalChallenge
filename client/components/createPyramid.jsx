@@ -27,7 +27,7 @@ const PyramidCreator = ({ setPyramid }) => {
       <label htmlFor='range'>Set the range of values for the nodes: </label>
       <select name='range' value={range} onChange={({ target }) => setRange(target.value)}>
         <option hidden></option>
-        {Array(20).fill().map((v, i) => <option key={i}>{i + 1}</option>)}
+        {Array(10).fill().map((v, i) => <option key={i}>{i + 1}</option>)}
       </select>
       <br />
       <label htmlFor='rows'>Choose the number of rows for the pyramid: </label>
@@ -37,7 +37,7 @@ const PyramidCreator = ({ setPyramid }) => {
       </select>
       <br/>
       <button onClick={makePyramid}>Create pyramid</button>
-      <div id='pyramid_error'>{error ? 'Please set a range and number of rows' : ''}</div>
+      <div className='error'>{error ? 'Please set a range and number of rows' : ''}</div>
     </div>
   )
 }

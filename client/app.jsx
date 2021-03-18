@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div id='main'>
-      <div>
+      <div id='info'>
         <h1>Pyramid Descent!</h1>
         <h3>Create a randomized Pyramid</h3>
         <CreatePyramid setPyramid={setPyramid} />

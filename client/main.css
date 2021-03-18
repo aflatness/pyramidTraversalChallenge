@@ -1,5 +1,7 @@
 html, body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(rgb(168, 182, 226),rgb(231, 225, 135));
+  height: 100vh;
 }
 
 #main {
@@ -11,13 +13,37 @@ html, body {
   flex: 1 1 0px;
 }
 
-#pyramid_error {
+#info {
+  margin-left: 2em;
+}
+
+.error {
+  margin-top: .5em;
   color: red;
-  font-size: .8em;
   font-style: italic;
 }
 
 #pyramid {
   font-size: 2em;
   text-align: center;
+}
+
+.answer {
+  margin-top: .5em;
+  color: green;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+button, input, select {
+  border: 1px solid black;
+  font-size: .9em;
+  background-color: white;
+  border-radius: 3px;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 1em;
 }
