@@ -80,5 +80,6 @@ const pyramidTraverse = (arr, target) => {
 module.exports = {
   createPyramid,
   pyramidTraverse,
-  makePyramidArray
+  makePyramidArray,
+  Tree
 }
