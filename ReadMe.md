@@ -41,7 +41,12 @@ Using NPM, install the required dependencies
   npm install
   ```
 
+
 Run the following command
+
+  ```bash
+  npm run build
+  ```
 
   ```bash
   npm start
