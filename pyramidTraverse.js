@@ -74,3 +74,8 @@ const pyramidTraverse = (pyramid, target) => {
   traverse(tree, 1, path);
   return path ? path : null;
 }
+
+module.exports = {
+  createPyramid,
+  pyramidTraverse
+}
