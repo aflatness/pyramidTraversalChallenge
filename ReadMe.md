@@ -6,9 +6,9 @@ Pyramid Descent is a fun coding challenge turned into a little mini app.
 
 The initial challenge was to write a function that solves a puzzle, to determine the correct path down a pyramid that results into the targeted value.
 
-In addition, the pyramid isn't given, so one must create the pyramid itself. I decided to utilize a Binary Tree for such task, due to the natural nature of each node having a left and right child. The uniqueness of the Binary Tree, for a pyramid, is that a right child node might be the same as a left child node, thus resulting in the need to ensure a properly balanced pyramid.
+In addition, the pyramid isn't given, so one must create the pyramid itself. I decided to utilize a Binary Tree for such task, due to the nature of each node having a left and right child. The uniqueness of the Binary Tree, for a pyramid, is that a right child node might be the same as a left child node, thus resulting in the need to ensure a properly balanced pyramid.
 
-Since making the function for the pyramid creation, I decided to go ahead and utilize the functions in a web application. This allows the user to make a randomized pyramid on their choosing, with a specific range of values and rows for the pyramid.
+Since making the function for the pyramid creation, I decided to go ahead and utilize the functions in a web application. This allows the user to make a randomized pyramid of their choosing, with a specific range of values and rows for the pyramid.
 
 ![Pyramid Descent](./public/mock.jpg)
 
