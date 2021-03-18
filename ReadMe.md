@@ -42,7 +42,7 @@ Using NPM, install the required dependencies
   ```
 
 
-Run the following command
+Run the following commands
 
   ```bash
   npm run build
