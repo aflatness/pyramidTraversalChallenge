@@ -32,7 +32,7 @@ describe('Create Pyramid', () => {
     expect(pyramid.right).toBeInstanceOf(Tree);
   });
 
-  test('Should return a balanced pyramid where a nodes may share the same child node', () => {
+  test('Should return a balanced pyramid where a 2 nodes may share the same child node', () => {
     expect(pyramid.left.right).toBe(pyramid.right.left);
   })
 });
