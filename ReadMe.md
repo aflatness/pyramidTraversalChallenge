@@ -41,11 +41,13 @@ Using NPM, install the required dependencies
   npm install
   ```
 
-And run the following command
+Run the following command
 
   ```bash
   npm start
   ```
+
+And open up your browser to [localhost:3001](localhost:3001)
 
 
 ## Contributing
