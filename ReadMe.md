@@ -17,6 +17,7 @@ Since making the function for the pyramid creation, I decided to go ahead and ut
 * [React](https://reactjs.org/)
 * [Express](https://expressjs.com/)
 * [Node.js](https://nodejs.org/en/)
+* [Jest.io](https://jestjs.io/)
 
 ## Getting Started
 
