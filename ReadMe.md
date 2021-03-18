@@ -1,6 +1,6 @@
 # Pyramid Descent
 
-Pyramid Descent is a fun coding challenge turned in a little mini app.
+Pyramid Descent is a fun coding challenge turned into a little mini app.
 
 ## About The Project
 
@@ -46,16 +46,6 @@ And run the following command
   npm start
   ```
 
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
