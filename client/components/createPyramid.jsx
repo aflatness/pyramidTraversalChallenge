@@ -18,13 +18,13 @@ const PyramidCreator = ({ setPyramid }) => {
   }
   return (
     <div>
-      <label for='range'>Set the range of values for the nodes: </label>
+      <label htmlFor='range'>Set the range of values for the nodes: </label>
       <select name='range' onChange={({ target }) => setRange(target.value)}>
         <option hidden></option>
         {Array(20).fill().map((v, i) => <option key={i}>{i + 1}</option>)}
       </select>
       <br />
-      <label for='rows'>Choose the number of rows for the pyramid: </label>
+      <label htmlFor='rows'>Choose the number of rows for the pyramid: </label>
       <select name='rows' onChange={({ target }) => setRows(target.value)}>
         <option hidden></option>
         {Array(10).fill().map((v, i) => <option key={i}>{i + 1}</option>)}
