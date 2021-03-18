@@ -21,7 +21,8 @@ Since making the function for the pyramid creation, I decided to go ahead and ut
 ## Getting Started
 
 ### Prerequisites
-* npm
+* NPM
+
   ```bash
   npm install npm@latest -g
   ```
@@ -49,8 +50,6 @@ And run the following command
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 
 ## License
