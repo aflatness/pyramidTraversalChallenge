@@ -10,7 +10,7 @@ In addition, the pyramid isn't given, so one must create the pyramid itself. I d
 
 Since making the function for the pyramid creation, I decided to go ahead and utilize the functions in a web application. This allows the user to make a randomized pyramid on their choosing, with a specific range of values and rows for the pyramid.
 
-![Pyramid Descent](./mock.jpg)
+![Pyramid Descent](./public/mock.jpg)
 
 ### Built With
 
