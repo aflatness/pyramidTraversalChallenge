@@ -15,6 +15,11 @@ html, body {
 
 #info {
   margin-left: 2em;
+  text-align: center;
+}
+
+#title {
+  font-size: 3em;
 }
 
 .error {
@@ -26,6 +31,7 @@ html, body {
 #pyramid {
   font-size: 2em;
   text-align: center;
+  margin-top: 1.7em;
 }
 
 .answer {
@@ -46,4 +52,12 @@ button, input, select {
 button {
   cursor: pointer;
   margin-top: 1em;
+}
+
+label {
+  margin: 0 .5em;
+}
+
+select {
+  margin: .7em 0;
 }

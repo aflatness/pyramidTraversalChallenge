@@ -20,7 +20,7 @@
     "Challenge"
   ],
   "author": "Alec Flatness <aflatness@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/aflatness/pyramidTraversalChallenge/issues"
   },

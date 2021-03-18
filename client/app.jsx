@@ -9,10 +9,10 @@ const App = () => {
   return (
     <div id='main'>
       <div id='info'>
-        <h1>Pyramid Descent!</h1>
-        <h3>Create a randomized Pyramid</h3>
+        <h1 id='title'>Pyramid Descent!</h1>
+        <h2>Create a randomized Pyramid</h2>
         <CreatePyramid setPyramid={setPyramid} />
-        <h3>Enter a number to see if a path exists!</h3>
+        <h2>Enter a number to see if a path exists!</h2>
         <NumberInput pyramid={pyramid}/>
       </div>
       <Pyramid pyramid={pyramid}/>
