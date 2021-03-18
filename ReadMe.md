@@ -47,7 +47,7 @@ Run the following command
   npm start
   ```
 
-And open up your browser to [localhost:3001](localhost:3001)
+And open up your browser to [localhost:3001](http://localhost:3001)
 
 
 ## Contributing
